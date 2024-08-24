@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+           <div id="imagem">
+                <!-- Aqui vai a imagem nas css -->
+           </div>
+           <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja Bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span id="barguer" class="material-symbols-outlined">
+                            Person
+                        </span>
+                        <input type="email" name="log" id="llog"
+                        placeholder="seu e-mail"
+                        required maxlength="30"
+                        autocomplete="email">
+                        <label for="llog">Login</label>
+                    </div>
+                    <div class="campo">
+                        <span id="barguer" class="material-symbols-outlined">
+                            Key
+                        </span>
+                        <input type="password" name="sen" id="isenha" placeholder="sua senha" required  minlength="8"
+                        autocomplete="current-password">
+                        <label for="isenha">Senha</label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Entrar">
+                        <a href="esqueci.html" class="bottom">
+                            Esqueci a senha
+                            <span id="barguer" class="material-symbols-outlined">
+                            mail
+                            </span>
+                        </a>
+                    </div>
+                </form>
+           </div>
+        </section>
+    </main>
+</body>
+</html>
